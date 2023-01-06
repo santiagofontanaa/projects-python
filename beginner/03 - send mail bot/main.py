@@ -10,7 +10,7 @@ yag = yagmail.SMTP(user=email, password=password)
 # Here we put the receiver, subject and html page / Aquí ponemos el receptor, sujeto y página html
 to = ['contactosantiagocfon@gmail.com'] 
 subject = "Test of Sending mails with Python"
-html = 'main.html'
+html = 'index.html'
 
 # Here we send the mail / Aquí enviamos el correo electrónico
 yag.send(to = to, subject = subject, contents = html)
