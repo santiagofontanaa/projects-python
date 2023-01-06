@@ -34,6 +34,6 @@ HOW TO CREATE A PASSWORD FOR APPS
      <p>When you alredy are here you will scroll down to "Google Acess" and you will activate F2A</p>
      <img width="500px" src="https://user-images.githubusercontent.com/79043997/210938295-2ce1d271-386b-4818-b3a0-4422c572edb6.png">
      <p>Then you will go en the same box and go to the button "App password" and you will create a App then Google will give you the password</p>
-     <img width="500px"https://user-images.githubusercontent.com/79043997/210938525-4cda5d02-e54e-47c9-b2d0-e3c4b082d534.png">
+     <img width="500px" src="https://user-images.githubusercontent.com/79043997/210938525-4cda5d02-e54e-47c9-b2d0-e3c4b082d534.png">
                                                                                                                              
                                                                                                                             
