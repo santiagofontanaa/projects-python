@@ -1,2 +1,3 @@
-# projects-python
-Hello World!, In this Repository you will found projects in python from Beginner to Advanced, in all of the projects you will found a documentation of the same.
+Welcome to PYTHONLEARNING. This Github Repository is for everyone who wants to start learning PYTHON. Everything in this repository is my research on the language as I learn PYTHON. Enjoy IT :)
+
+ANY RECOMMENDATION/ERROR SEND MESSAGE TO MY DISCORD: ```@santiagofontanaa```
