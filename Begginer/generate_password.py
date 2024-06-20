@@ -1,22 +1,29 @@
-# IMPORT STRING AND RANDOM
-import string
+# Import modules
 import random
+import string
+    
+# create_password function
+def create_password(password_length):
+        characters = string.ascii_letters + string.digits + string.punctuation
+        password = "".join(random.choice(characters) for _ in range(int(password_length)))
+        return password
 
-# CREATE THE FUNCTION GENERATE PASSWORD WITH THE PARAMETER LENGHT
-def generate_password(lenght):
-    # CREATE A VARIABLE THAT WILL CONTAIN ALL THE CHARACTERS (LETTERS, NUMBERS AND SPECIAL CHARACTERS)
-    characters = string.ascii_letters + string.digits + string.punctuation
-    # CREATE A VARIABLE WHERE WILL SELECT RANDOMLY OF THE CHARACTERS VAR CHARACTERS
-    # THEN WHE MAKE A FOR WITH THE _ PARAMETER (_ SAYS THAT THE FOR WILL BE REPEATED AS THE PROGRAM NEED) IN THE RANGE OF LENGHT PARAMETER
-    password = "".join(random.choise(characters) for _ in range(lenght))
-    # RETURN THE PASSWORD
-    return password
+if __name__ == "__main__":
+    print("PASSWORD GENERATOR")
+    while True:
+        while True:
+            print("What will be your password length?")
+            password_length = input().
+            if password_length.isdigit() and (int(password_length) > 0):
+            else:
+                print("You must write a valid number!")
 
-# CREATE A VARIBLE THAT WILL BE A INPUT INSIDE A INT
-lenght = int(input("Say the lenght of your password: "))
+        # create new password and print
+        random_password = create_password(password_length)
+        print("PASSWORD: " + random_password)
 
-# CREATE A VARIABLE WHERE WE PUT THE GENERATE_PASSWORD FUNCTION
-created_password = generate_password(lenght)
-
-# PRINT THE FUNCTION VARIABLE
-print(created_password)
+        # .strip() quit blank space | .lower() make the input lowercase
+        nueva_contraseña = input("Want to create an new password? (yes/no) ").strip().lower()
+        # if password is not equal to "yes" we will break loop
+        if nueva_contraseña != "yes":
+            break
